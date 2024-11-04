@@ -7,9 +7,4 @@ export const overrideStyle = {
     alignItems: "center"
 }
 
-export const socket = io('https://ecom-api-production-9723.up.railway.app', {
-    withCredentials: true,
-    extraHeaders: {
-        "Access-Control-Allow-Origin": "https://dashboard-seller-admin.vercel.app"
-    }
-});
+export const socket = io('https://ecom-api-production-9723.up.railway.app')
