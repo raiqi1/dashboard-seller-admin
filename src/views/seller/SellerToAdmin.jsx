@@ -63,7 +63,7 @@ const SellerToAdmin = () => {
                 <div className="relative">
                   <img
                     className="w-[42px] h-[42px] border-green-500 border-2 max-w-[42px] p-[2px] rounded-full"
-                    src="http://localhost:3001/images/admin.jpg"
+                    src="https://dashboard-seller-admin.vercel.app/images/admin.jpg"
                     alt=""
                   />
                   {activeAdmin && (
@@ -87,7 +87,7 @@ const SellerToAdmin = () => {
                           <div>
                             <img
                               className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                              src="http://localhost:3001/images/admin.jpg"
+                              src="https://dashboard-seller-admin.vercel.app/images/admin.jpg"
                               alt=""
                             />
                           </div>
@@ -111,7 +111,7 @@ const SellerToAdmin = () => {
                           <div>
                             <img
                               className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                              src="http://localhost:3001/images/admin.jpg"
+                              src="https://dashboard-seller-admin.vercel.app/images/admin.jpg"
                               alt=""
                             />
                           </div>

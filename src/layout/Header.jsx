@@ -34,13 +34,13 @@ const Header = ({ showSidebar, setShowSidebar }) => {
               {userInfo.role === "admin" ? (
                 <img
                   className="w-[45px] h-[45px] rounded-full overflow-hidden"
-                  src="http://localhost:3001/images/admin.jpg"
+                  src="https://dashboard-seller-admin.vercel.app/images/admin.jpg"
                   alt=""
                 />
               ) : (
                 <img
                   className="w-[45px] h-[45px] rounded-full overflow-hidden"
-                  src="http://localhost:3001/images/seller.png"
+                  src="https://dashboard-seller-admin.vercel.app/images/seller.png"
                   alt=""
                 />
               )}
